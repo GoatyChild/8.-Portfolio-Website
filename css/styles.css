@@ -11,7 +11,7 @@ Background Color (Light, Light Blue): #E7F6FB;
   --primary-color: #357b70;
   --first-color: #E7F6FB;
   --second-color: yellow;
-  --third-color: LightGrey; 
+  --third-color: LightGrey;
   --fourth-color: #357b70;
   --fifth-color: white;
   --sixth-color: #edc655;
@@ -20,7 +20,7 @@ Background Color (Light, Light Blue): #E7F6FB;
   --ninth-color: #000;
   --primary-font-weight: 700;
   --primary-padding: 10px;
-    
+
 }
 
 
@@ -30,9 +30,9 @@ a {
 
 
 body {
-    
+
     font-family: 'PT Mono', monospace;
-    background-color: var(--first-color);   
+    background-color: var(--first-color);
 }
 
 h1 {
@@ -47,7 +47,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px; 
+  font-size: 18px;
   font-weight: var(--primary-font-weight);
 }
 
@@ -68,7 +68,7 @@ span {
 
 }
 
-.page-footer {    
+.page-footer {
   clear: both;
   display: flex;
   flex-direction: column;
@@ -169,7 +169,7 @@ button,
   /* width of the border, type, color */
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition-duration: 0.2s;
-  transition-property: opacity; 
+  transition-property: opacity;
 }
 
 button:hover,
@@ -223,4 +223,3 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
-

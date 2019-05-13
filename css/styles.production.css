@@ -7,6 +7,21 @@ Secondary Color (Orange): #e0b354;
 Background Color (Light, Light Blue): #E7F6FB;
  */
 
+ :root {
+   --primary-color: #357b70;
+   --first-color: #E7F6FB;
+   --second-color: yellow;
+   --third-color: LightGrey;
+   --fourth-color: #357b70;
+   --fifth-color: white;
+   --sixth-color: #edc655;
+   --seventh-color: #fcffad;
+   --eighth-color: #f76414;
+   --ninth-color: #000;
+   --primary-font-weight: 700;
+   --primary-padding: 10px;
+
+ }
 
 a {
   color: #357b70;
