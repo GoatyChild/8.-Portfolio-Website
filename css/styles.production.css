@@ -18,6 +18,7 @@ Background Color (Light, Light Blue): #E7F6FB;
    --seventh-color: #fcffad;
    --eighth-color: #f76414;
    --ninth-color: #000;
+   --tenth-color: deepskyblue;
    --primary-font-weight: 700;
    --primary-padding: 10px;
 
@@ -26,6 +27,8 @@ Background Color (Light, Light Blue): #E7F6FB;
 a {
   color: #357b70;
 }
+
+
 
 
 body {
@@ -116,7 +119,7 @@ span {
 }
 
 .grid_item {
-  background-color: LightGrey;
+  background-color: var(--fifth-color);
   padding: var(--primary-padding);
   /* Set width to auto*/
   width: auto;
@@ -160,7 +163,7 @@ button,
   /* takes the font from the outer container */
   font-family: inherit;
   /* styles the button */
-  background-color: var(--fourth-color);
+  background-color: var(--tenth-color);
   color: var(--fifth-color);
   text-decoration: none;
   padding: var(--primary-padding);
@@ -177,48 +180,6 @@ button:focus,
 .button:focus {
 /* lets the mouse appear as a hand when hovering over the button */
   cursor: pointer;
-  /* reduces the opacity of the button to 80% */
-  opacity: 0.8;
-}
-
-@keyframes color-change {
-  0% {
-    fill: var(--sixth-color);
-  }
-  50% {
-    fill: var(--seventh-color);
-  }
-  100% {
-    fill: var(--eighth-color);
-  }
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(446px, 48px);
-  }
-  to {
-    transform: translate(100px, 48px);
-  }
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
+  /* reduces the opacity of the button to 60% */
+  opacity: 0.6;
 }
