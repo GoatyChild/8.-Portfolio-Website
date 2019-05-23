@@ -52,68 +52,30 @@ a {
 	color: var(--tenth-color);
 }
 
-.content-div-napa {
+.harp-div {
+    
     margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
 	overflow: hidden;
-	padding: 30px;
-	background-color: #F7FFAC;
-	border-style: solid;
-	color: var(--eleventh-color);
-}
-
-.content-div-data-vis {
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-	overflow: hidden;
-	padding: 30px;
-	background-color: #C7CCF3;
-	border-style: dotted solid double;
-	color: var(--eleventh-color);
-}
-
-.content-div-sam-f {
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-	overflow: hidden;
-	padding: 30px;
-	background-color: #E9CAF4;
-	border-style: border-style: dotted solid double;
-	color: var(--eleventh-color);
-}
-
-.content-div-poly {
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-	overflow: hidden;
-	padding: 30px;
-	background-color: #C8CFD7;
-	border-style: border-style: dotted solid double;
-	color: var(--eleventh-color);
-}
-
-.content-div-home {
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-	overflow: hidden;
-	padding: 30px;
+	padding: 5px;
 	background-color: white;
-	border-style: border-style: dotted solid double;
-	color: var(--eleventh-color);
+	border-style: solid;
+	color: black;
+    text-decoration-color: black;
 }
 
-.text-div {
+.chocolate-div {
     
     margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    background-color: var(--first-color);
-    
+    margin-left: 120px;
+    margin-right: 120px;
+	overflow: hidden;
+	padding: 5px;
+	background-color: white;
+	border-style: solid;
+	color: black;
+    text-decoration-color: black;
 }
 
 blockquote {
@@ -128,9 +90,9 @@ body {
 
     font-family: 'Roboto', sans-serif;
     background-color: var(--first-color);
-    margin-bottom: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-bottom: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 h1 {
