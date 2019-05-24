@@ -207,6 +207,45 @@ a {
     text-decoration-color: black;
 }
 
+.derma {
+    
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+	overflow: hidden;
+	padding: 5px;
+	background-color: white;
+	border-style:groove;
+	color: black;
+    text-decoration-color: black;
+}
+
+.cindarella {
+    
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+	overflow: hidden;
+	padding: 5px;
+	background-color: #70F768;
+	border-style:groove;
+	color: black;
+    text-decoration-color: black;
+}
+
+.national-penn {
+    
+    margin-bottom: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+	overflow: hidden;
+	padding: 5px;
+	background-color: white;
+	border-style:groove;
+	color: black;
+    text-decoration-color: black;
+}
+
 blockquote {
     
     font-size: 30px;
